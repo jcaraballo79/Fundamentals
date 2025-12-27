@@ -19,6 +19,7 @@ struct ContentView: View {
                     .scaleEffect(0.6)
                     .foregroundStyle(.orange)
             }
+            
             .frame(width: 300)
             
             Text("You Are Awesome!")
@@ -26,6 +27,7 @@ struct ContentView: View {
                 .fontWeight(.black)
                 .foregroundStyle(.red)
         }
+        
         .padding()
     }
 }
